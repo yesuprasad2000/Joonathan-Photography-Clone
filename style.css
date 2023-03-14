@@ -1,0 +1,691 @@
+body{
+    font-family: 'Cardo', serif;
+}
+
+.header {
+    background-color: #ffff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header .nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;
+}
+ .slider {
+    background-image: url(images/slider-bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+.slider  .content {
+    position: absolute;
+    bottom: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+
+}
+
+.slider .content h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.slider .content p {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.header-section-1 {
+    background-color: #F2F3F5;
+    padding:50px 0px;
+}
+.header-section-1 .content-1{
+    margin-left: 16.6px;
+}
+
+.header-section-1 .content-1 h1{
+    text-align: center;
+    font-size: 2rem;
+    color:#404040;
+    font-weight: bold;
+}
+.header-section-1 .content-1 p{
+    font-size: 22px;
+    text-align: center;
+    color:#606060;
+}
+
+.header-section-1 .card-body {
+    background-color: #FFFFFF;
+    padding: 55px 22px;
+}
+.header-section-2{
+    padding:50px;
+    background:#EAEBED;
+}
+.header-section-2 .overlay{
+ position: absolute;
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ opacity: 0;
+ transition: opacity 0.4s ease-in-out;
+ background: #000;
+ cursor: pointer;
+}
+.header-section-2 .content h5{
+    font-weight: bold;
+}
+.header-section-2 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    text-align: center;
+}
+.header-section-2 .webinar:hover .overlay{
+    opacity: 0.8;
+}
+
+.header-section-2 .row .col-md-4{
+    padding-right:0;
+    padding-left: 5px;
+}
+
+.header-section-2 .content-1 h1{
+    text-align: center;
+    font-size: 2rem;
+    color:#404040;
+    font-weight: bold;
+}
+.header-section-2 .content-1 p{
+    font-size: 22px;
+    text-align: center;
+    color:#606060;
+}
+.header-section-2 .nav{
+    margin:10px 0px;
+}
+.header-section-2 .nav .nav-item .nav-link{
+    color:#404040;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.header-section-2 .nav .nav-item .nav-link:hover{
+    color:#80C9A1;
+}
+.header-section-2 .btn{
+    background-color: #80C9A1;
+    padding:10px 40px;
+    margin-left:45%;
+    color:#fff;
+    font-weight: bold;
+}
+.header-section-3{
+    background-color:#F2F3F5;
+    padding:50px;
+}
+.header-section-3 .poet{
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.header-section-3 .poet h6{
+    color:#fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.header-section-3 .poet span{
+    color:#fff;
+}
+.header-section-3 .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #000;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+}
+.header-section-3 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.header-section-3 .content .fa-solid{
+    font-size: 2rem;
+    color:#fff;
+}
+.header-section-3 .webinar:hover .overlay{
+    opacity: 0.8;
+}
+.header-section-3 .webinar:hover .poet{
+    display: none;
+}
+.header-section-3 .content-1 h1{
+    text-align: center;
+    font-size: 2rem;
+    color:#404040;
+    font-weight: bold;
+}
+.header-section-3 .content-1 p{
+    font-size: 22px;
+    text-align: center;
+    color:#606060;
+}
+.header-section-3 .row .col-lg-4{
+    padding-right:0;
+    padding-left:10px;
+}
+.header-section-4{
+    background-image: url(images/parallax.jpg); 
+    background-size: cover;
+    height:50vh; 
+    position: relative;
+
+}
+
+.header-section-4 .content h5{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+}
+.header-section-4 .content p{
+    text-align: center;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.header-section-4 .content span{
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+.header-section-5 .content-1 h1{
+    text-align: center;
+    font-size: 2rem;
+    color:#404040;
+    font-weight: bold;
+}
+.header-section-5{
+    padding:50px;
+    background-color:#F2F3F5;
+}
+.header-section-5 .content-1 p{
+    font-size: 22px;
+    text-align: center;
+    color:#606060;
+}
+.header-section-5 .content-2 blockquote{
+    padding-top:0;
+    padding-bottom:0;
+}
+.header-section-5 .content-2 blockquote{
+    border-left:3px solid #80c9a1;
+    padding:10px 20px;
+    font-size: 17.5px;
+    margin:0 0 20px;
+    color:#606060;
+}
+.header-section-5 .content-2 h6{
+    font-weight: bold;
+    color:#404040;
+}
+.header-section-5 .content-2 .nav .nav-link{
+    padding:0px 10px;
+    color:#404040;
+}
+.header-section-5 .radius{
+    margin:10px 0px;
+}
+
+.header-section-5 .info-1 h5{
+ font-weight: bold;
+}
+.header-section-5 h5{
+    font-weight: bold;
+}
+.header-section-5 .btn{
+    background-color: #80C9A1;
+    padding:10px 40px;
+    margin-left:45%;
+    color:#fff;
+    font-weight: bold;
+}
+.header-section-6{
+    background-color:#EAEBED;
+    padding:50px;
+}
+.header-section-6 .fa-solid{
+    font-size: 2rem;
+    color:#404040;
+    margin:10px 0px;
+}
+.header-section-6 h4{
+    font-weight:bold;
+    color:#404040;
+}
+.header-section-6 h6{
+    color:#404040;
+}
+.header-section-7{
+    padding:100px;
+    background-color:#F2F3F5;
+}
+.header-section-7 .content-1 h1{
+    text-align: center;
+    font-size: 2rem;
+    color:#404040;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-section-7 .content-1 p{
+    font-size: 18px;
+    text-align: center;
+    color:#606060;
+}
+.header-section-7 .form-control{
+    box-shadow: none;
+    margin:10px 0px;
+}
+.header-section-7 .radius-toggle .custom-control-label{
+    color:#606060;
+}
+.header-section-7 .btn{
+    background-color: #80C9A1;
+    padding:10px 40px;
+    margin-left:45%;
+    color:#fff;
+    font-weight: bold;
+}
+.header-section-8{
+    padding:100px;
+    background-color: #292929;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-section-8 .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #000;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+}
+.header-section-8 .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.header-section-8.content .fa-solid{
+    font-size: 2rem;
+    color:#fff;
+}
+.header-section-8 .webinar:hover .overlay{
+    opacity: 0.8;
+}
+.header-section-8 h5{
+    font-weight: bold;
+    color:#fff;
+    margin:15px 0px;
+    font-size: 1rem;
+}
+.header-section-8 h6{
+    color:#DDDDDD;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+.header-section-8 h6:hover{
+    color:#80C9A1;
+    cursor: pointer;
+}
+.header-section-8  span{
+    color:#DDDDDD;
+    font-size: 10px;
+}
+.header-section-8 .spinner span{
+    padding:5px 10px;
+    background-color: #393939;
+    color:#fff;
+    margin:4px 2px;
+}
+.header-section-8 ul{
+    color:#fff;
+    padding:0 10px;
+    margin:0;
+}
+.header-section-8 .fonts-1 .nav .nav-link{
+    padding:0 8px;
+    color:#DDDDDD;
+}
+.header-section-8  address{
+    color:#DDDDDD;
+    font-family: 'Cardo', serif;
+}
+.header-section-8  p{
+    color:#fff;
+    font-family: 'Cardo', serif;
+}
+.header-section-9{
+    background-color: #252525;
+    padding:20px;
+}
+.header-section-9 h5{
+    color:#fff;
+    font-family: 'Cardo', serif;
+}
+
+@media screen and (max-width:1440px) {
+    .slider {
+        background-image: url(images/slider-bg1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;  
+        height:100vh;
+    }
+    .slider  .content {
+        position: absolute;
+        bottom: 5%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+    
+    }
+}
+@media screen and (max-width:1024px) {
+    .slider  .content {
+        position: absolute;
+        bottom:30%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .slider .content h1{
+        font-size: 2rem;
+    }
+    .slider .content p{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body {
+        background-color: #FFFFFF;
+        padding: 35px 22px;
+    }
+}
+@media screen and (max-width:920px){
+    .slider  .content {
+        position: absolute;
+        bottom:10%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .slider .content h1{
+        font-size: 1rem;
+    }
+    .slider .content p{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body {
+        background-color: #FFFFFF;
+        padding: 25px 22px;
+    }
+    .header-section-1 .card-body .card-title{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body .card-text{
+        font-size: 11px;
+    }
+    .header-section-5{
+        padding: 10px;
+    }
+    .header-section-5 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:40%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-7{
+        padding:40px;
+    }
+    .header-section-8{
+        padding:50px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .slider  .content {
+        position: absolute;
+        bottom:10%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .slider .content h1{
+        font-size: 1rem;
+    }
+    .slider .content p{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body {
+        background-color: #FFFFFF;
+        padding: 25px 22px;
+    }
+    .header-section-1 .card-body .card-title{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body .card-text{
+        font-size: 11px;
+    }
+    .header-section-5{
+        padding: 10px;
+    }
+    .header-section-5 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:40%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-7{
+        padding:40px;
+    }
+    .header-section-8{
+        padding:50px;
+    }
+}
+@media screen and (max-width:768px){
+    .slider  .content {
+        position: absolute;
+        bottom:10%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .slider .content h1{
+        font-size: 1rem;
+    }
+    .slider .content p{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body {
+        background-color: #FFFFFF;
+        padding: 25px 22px;
+    }
+    .header-section-1 .card-body .card-title{
+        font-size: 1rem;
+    }
+    .header-section-1 .card-body .card-text{
+        font-size: 11px;
+    }
+    .header-section-5{
+        padding: 10px;
+    }
+    .header-section-5 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:40%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-7{
+        padding:40px;
+    }
+    .header-section-8{
+        padding:50px;
+    }
+}
+@media screen and (max-width:450px) {
+    .slider {
+        background-image: url(images/slider-bg1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height:40vh;  
+    }
+    .slider  .content {
+        position: absolute;
+        top:40%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .header-section-2{
+        padding:10px;
+    }
+    .header-section-2 .nav{
+        display: none;
+    }
+    .header-section-2 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:35%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-3{
+        padding:10px;
+    }
+    .header-section-4 .content h5{
+        font-size: 1.5rem;
+        color:#fff;
+        font-weight: bold;
+        text-align: center;
+    }
+    .header-section-4 .content p{
+        text-align: center;
+        color:#fff;
+        font-size: 1rem;
+    }
+    .header-section-5 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:25%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-7{
+        padding:10px;
+    }
+    .header-section-7 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:25%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-8{
+        padding:10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .slider {
+        background-image: url(images/slider-bg1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height:100vh; 
+    }
+    .slider  .content {
+        position: absolute;
+        top:60%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .header-section-2{
+        padding:10px;
+    }
+    .header-section-2 .nav{
+        display: none;
+    }
+    .header-section-2 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:25%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-3{
+        padding:10px;
+    }
+    .header-section-4 .content h5{
+        font-size: 1.5rem;
+        color:#fff;
+        font-weight: bold;
+        text-align: center;
+    }
+    .header-section-4 .content p{
+        text-align: center;
+        color:#fff;
+        font-size: 1rem;
+    }
+    .header-section-5 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:25%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-7{
+        padding:10px;
+    }
+    .header-section-7 .btn{
+        background-color: #80C9A1;
+        padding:10px 40px;
+        margin-left:25%;
+        margin-top: 10px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .header-section-8{
+        padding:10px;
+    }
+}
